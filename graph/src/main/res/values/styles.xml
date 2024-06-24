@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spark_SparkView">
+        <item name="spark_lineColor">@color/spark_line_color</item>
+        <item name="spark_lineWidth">@dimen/spark_line_width</item>
+        <item name="spark_cornerRadius">@dimen/spark_corner_radius</item>
+        <item name="spark_fillColor">@color/spark_fill_color</item>
+        <item name="spark_fill">false</item>
+
+        <item name="spark_baseLineColor">@color/spark_base_line_color</item>
+        <item name="spark_baseLineWidth">@dimen/spark_base_line_width</item>
+
+        <item name="spark_scrubLineColor">@color/spark_scrub_line_color</item>
+        <item name="spark_scrubLineWidth">@dimen/spark_scrub_line_width</item>
+        <item name="spark_scrubEnabled">false</item>
+        <item name="spark_animateChanges">true</item>
+    </style>
+
+    <style name="spark_PieView">
+        <item name="pie_lineWidth">4dp</item>
+        <item name="pie_gap">2dp</item>
+        <item name="pie_lineBackground">#e0e0e0</item>
+    </style>
+
+    <style name="VerticalProgressBar">
+        <item name="vpb_lineWidth">4dp</item>
+        <item name="vpb_lineBackground">#e0e0e0</item>
+    </style>
+
+    <style name="BarView">
+        <item name="bv_lineWidth">4dp</item>
+        <item name="bv_lineBackground">#e0e0e0</item>
+        <item name="bv_lineColor">#abcdef</item>
+        <item name="bv_labelTextSize">14sp</item>
+        <item name="bv_labelPadding">8dp</item>
+    </style>
+
+    <style name="BarView2">
+        <item name="bv_lineWidth">4dp</item>
+        <item name="bv_lineBackground">#e0e0e0</item>
+        <item name="bv_lineColor">#abcdef</item>
+        <item name="bv_labelTextSize">14sp</item>
+        <item name="bv_labelPadding">8dp</item>
+    </style>
+
+    <style name="BudgetLineView">
+
+        <item name="blv_spentLineWidth">3dp</item>
+        <item name="blv_spentLineColor">#1eb980</item>
+
+        <item name="blv_baselineWidth">2dp</item>
+        <item name="blv_baselineColor">#eee</item>
+
+        <item name="blv_budgetLimitLineWidth">1dp</item>
+        <item name="blv_budgetLimitLineColor">#EF5350</item>
+
+        <item name="blv_budgetLimitShiftColor">#11EF5350</item>
+
+        <item name="blv_budgetLimitTextSize">14sp</item>
+        <item name="blv_budgetLimitTextColor">#EF5350</item>
+        <item name="blv_budgetLimitTextPadding">8dp</item>
+        <!--<item name="blv_budgetLimitTextFontFamily"></item>-->
+        <item name="blv_budgetLimitTextStyle">BOLD</item>
+
+        <item name="blv_budgetProjectionLineWidth">3dp</item>
+        <item name="blv_budgetProjectionLineColor">#551eb980</item>
+
+        <item name="blv_dateProjectionLineWidth">1dp</item>
+        <item name="blv_dateProjectionLineColor">#eee</item>
+
+        <item name="blv_zeroOffset">8dp</item>
+
+        <item name="blv_intersectionPointRadius">4dp</item>
+        <item name="blv_intersectionPointColor">#fff</item>
+
+        <item name="blv_intersectionPointBorderWidth">3dp</item>
+        <item name="blv_intersectionPointBorderColor">#1eb980</item>
+
+        <item name="blv_dateTextSize">12sp</item>
+        <item name="blv_dateTextColor">#fff</item>
+        <!--<item name="blv_dateTextFontFamily"></item>-->
+        <item name="blv_dateTextStyle">BOLD</item>
+
+        <item name="blv_dateRectPadding">4dp</item>
+        <item name="blv_dateRectColor">#1eb980</item>
+        <item name="blv_dateRectRadius">4dp</item>
+
+        <item name="blv_puckSize">4dp</item>
+        <item name="blv_puckGap">2dp</item>
+
+        <item name="blv_intersectionPointTextBgColor">#E6EBB5B5</item>
+
+        <item name="blv_touchedPointAmountTextColor">#EF5350</item>
+        <item name="blv_touchedPointAmountTextSize">24sp</item>
+<!--        <item name="blv_touchedPointAmountTextFontFamily"></item>-->
+        <item name="blv_touchedPointAmountTextStyle">BOLD</item>
+
+        <item name="blv_touchedPointAmountTextPadding">16dp</item>
+
+    </style>
+
+</resources>

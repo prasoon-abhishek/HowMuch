@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.github.amanshuraikwar.howmuch">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="${applicationLabel}"
+        android:supportsRtl="true"
+        android:theme="@style/HowMuch"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:supportsPictureInPicture="false"
+        tools:replace="android:label">
+
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:configChanges="orientation|screenSize|screenLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.expense.ExpenseActivity"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+
+        <activity
+            android:name=".ui.wallet.WalletActivity"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+
+        <activity
+            android:name=".ui.addexpense.AddExpenseActivity"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+        <activity
+            android:name=".ui.history.HistoryActivity"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+        <activity
+            android:name=".ui.settings.activity.SettingsActivity"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+        <activity
+            android:name=".ui.search.SearchActivity"
+            android:theme="@style/HowMuch.Search"
+            android:configChanges="orientation|screenSize|screenLayout"/>
+        <activity android:name=".ui.monthlybudget.MonthlyBudgetActivity" />
+        <activity android:name=".ui.category.CategoryActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

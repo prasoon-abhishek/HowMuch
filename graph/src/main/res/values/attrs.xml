@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="spark_SparkViewStyle" format="reference" />
+
+    <declare-styleable name="SparkView">
+        <attr name="spark_lineColor" format="color|reference" />
+        <attr name="spark_lineWidth" format="dimension|reference" />
+        <attr name="spark_cornerRadius" format="dimension|reference" />
+        <!-- {@deprecated Use fillType instead.} -->
+        <attr name="spark_fill" format="boolean|reference" />
+        <attr name="spark_fillColor" format="color|reference" />
+        <attr name="spark_fillType" format="enum">
+            <!-- must match values in SparkView.FillType -->
+            <enum name="none" value="0" />
+            <enum name="up" value="1" />
+            <enum name="down" value="2" />
+            <enum name="towardZero" value="3" />
+        </attr>
+
+        <attr name="spark_baseLineColor" format="color|reference" />
+        <attr name="spark_baseLineWidth" format="dimension|reference" />
+
+        <attr name="spark_scrubLineColor" format="color|reference" />
+        <attr name="spark_scrubLineWidth" format="dimension|reference" />
+
+        <attr name="spark_scrubEnabled" format="boolean|reference" />
+
+        <attr name="spark_animateChanges" format="boolean|reference" />
+    </declare-styleable>
+
+    <attr name="PieViewStyle" format="reference" />
+
+    <declare-styleable name="PieView">
+        <attr name="pie_lineWidth" format="dimension|reference" />
+        <attr name="pie_gap" format="dimension|reference" />
+        <attr name="pie_lineBackground" format="color|reference" />
+    </declare-styleable>
+
+    <attr name="VerticalProgressBarStyle" format="reference" />
+
+    <declare-styleable name="VerticalProgressBar">
+        <attr name="vpb_lineWidth" format="dimension|reference" />
+        <attr name="vpb_lineColor" format="color|reference" />
+        <attr name="vpb_lineBackground" format="color|reference" />
+        <attr name="vpb_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="BarViewStyle" format="reference" />
+
+    <declare-styleable name="BarView">
+        <attr name="bv_lineWidth" format="dimension|reference" />
+        <attr name="bv_lineColor" format="color|reference" />
+        <attr name="bv_lineBackground" format="color|reference" />
+        <attr name="bv_labelTextSize" format="dimension|reference" />
+        <attr name="bv_labelPadding" format="dimension|reference" />
+        <attr name="bv_labelTextColor" format="color|reference" />
+        <attr name="bv_labelFontFamily" format="reference" />
+        <attr name="bv_labelTextStyle" format="enum">
+            <enum name="BOLD" value="0"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="BarView2Style" format="reference" />
+
+    <declare-styleable name="BarView2">
+        <attr name="bv2_lineWidth" format="dimension|reference" />
+        <attr name="bv2_lineColor" format="color|reference" />
+        <attr name="bv2_lineBackground" format="color|reference" />
+        <attr name="bv2_labelTextSize" format="dimension|reference" />
+        <attr name="bv2_labelPadding" format="dimension|reference" />
+        <attr name="bv2_labelTextColor" format="color|reference" />
+        <attr name="bv2_labelFontFamily" format="reference" />
+        <attr name="bv2_labelTextStyle" format="enum">
+            <enum name="BOLD" value="0"/>
+        </attr>
+        <attr name="bv2_clickedBgColor" format="color|reference" />
+        <attr name="bv2_clickedBarValueTextColor" format="color|reference" />
+        <attr name="bv2_clickedBarValueTextSize" format="dimension|reference" />
+        <attr name="bv2_clickedBarValueTextFontFamily" format="reference" />
+        <attr name="bv2_clickedBarValueTextStyle" format="enum">
+            <enum name="BOLD" value="0"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="BudgetLineViewStyle" format="reference" />
+
+    <declare-styleable name="BudgetLineView">
+
+        <attr name="blv_spentLineWidth" format="dimension|reference" />
+        <attr name="blv_spentLineColor" format="color|reference" />
+
+        <attr name="blv_baselineWidth" format="dimension|reference" />
+        <attr name="blv_baselineColor" format="color|reference" />
+
+        <attr name="blv_budgetLimitLineWidth" format="dimension|reference" />
+        <attr name="blv_budgetLimitLineColor" format="color|reference" />
+
+        <attr name="blv_budgetLimitShiftColor" format="color|reference" />
+
+        <attr name="blv_budgetLimitTextSize" format="dimension|reference" />
+        <attr name="blv_budgetLimitTextColor" format="color|reference" />
+        <attr name="blv_budgetLimitTextFontFamily" format="reference" />
+        <attr name="blv_budgetLimitTextStyle" format="enum">
+            <enum name="BOLD" value="0"/>
+        </attr>
+        <attr name="blv_budgetLimitTextPadding" format="dimension|reference" />
+
+        <attr name="blv_budgetProjectionLineWidth" format="dimension|reference" />
+        <attr name="blv_budgetProjectionLineColor" format="color|reference" />
+
+        <attr name="blv_dateProjectionLineWidth" format="dimension|reference" />
+        <attr name="blv_dateProjectionLineColor" format="color|reference" />
+
+        <attr name="blv_zeroOffset" format="dimension|reference" />
+
+        <attr name="blv_intersectionPointRadius" format="dimension|reference" />
+        <attr name="blv_intersectionPointColor" format="color|reference" />
+
+        <attr name="blv_intersectionPointBorderWidth" format="dimension|reference" />
+        <attr name="blv_intersectionPointBorderColor" format="color|reference" />
+
+        <attr name="blv_dateTextSize" format="dimension|reference" />
+        <attr name="blv_dateTextColor" format="color|reference" />
+        <attr name="blv_dateTextFontFamily" format="reference" />
+        <attr name="blv_dateTextStyle" format="enum">
+            <enum name="BOLD" value="0"/>
+        </attr>
+
+        <attr name="blv_dateRectPadding" format="dimension|reference" />
+        <attr name="blv_dateRectColor" format="color|reference" />
+        <attr name="blv_dateRectRadius" format="dimension|reference" />
+
+        <attr name="blv_puckSize" format="dimension|reference" />
+        <attr name="blv_puckGap" format="dimension|reference" />
+
+        <attr name="blv_intersectionPointTextBgColor" format="color|reference" />
+
+        <attr name="blv_touchedPointAmountTextSize" format="dimension|reference" />
+        <attr name="blv_touchedPointAmountTextColor" format="color|reference" />
+        <attr name="blv_touchedPointAmountTextFontFamily" format="reference" />
+        <attr name="blv_touchedPointAmountTextStyle" format="enum">
+            <enum name="BOLD" value="0"/>
+        </attr>
+
+        <attr name="blv_touchedPointAmountTextPadding" format="dimension|reference" />
+
+    </declare-styleable>
+
+</resources>

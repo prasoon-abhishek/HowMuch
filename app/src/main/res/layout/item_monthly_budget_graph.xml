@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentCv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.MaterialComponents.CardView"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp">
+
+    <io.github.amanshuraikwar.howmuch.graph.BudgetLineView
+        android:id="@+id/budgetLineView"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:paddingStart="72dp"
+        android:paddingEnd="@dimen/padding_normal"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:background="@color/white"
+        app:blv_spentLineColor="@color/monthlyBudgetLimitPrimary"
+
+        app:blv_budgetLimitLineColor="@color/secondaryText"
+        app:blv_budgetLimitShiftColor="@color/gray3"
+        app:blv_budgetLimitTextColor="@color/secondaryText"
+        app:blv_budgetLimitTextFontFamily="@font/rubik"
+
+        app:blv_budgetProjectionLineColor="@color/monthlyBudgetLimitSecondary"
+        app:blv_intersectionPointColor="@color/white"
+        app:blv_intersectionPointBorderColor="@color/monthlyBudgetLimitPrimary"
+        app:blv_dateTextFontFamily="@font/cabin"
+        app:blv_dateRectColor="@color/monthlyBudgetLimitPrimary"
+        app:blv_intersectionPointTextBgColor="#eeFFEBEE"
+        app:blv_touchedPointAmountTextColor="@color/monthlyBudgetLimitPrimary"
+        app:blv_touchedPointAmountTextSize="34sp"
+        app:blv_touchedPointAmountTextFontFamily="@font/rubik" />
+</com.google.android.material.card.MaterialCardView>

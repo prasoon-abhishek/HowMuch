@@ -63,3 +63,13 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+.idea
+
+# keystores
+keystores
+
+# ds store
+.DS_STORE
+app/beta/
+app/release/
